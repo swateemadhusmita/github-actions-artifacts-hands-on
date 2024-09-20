@@ -26,5 +26,5 @@ jobs:
       with:
         name: hello-artifact
         path: ./artifacts
-    - name: display
+    - name: display-trdt
       run: cat ./artifacts/hello.txt
